@@ -1,0 +1,13 @@
+<template name="postSubmit">
+  <form class="main form page">
+    <div class="input-field">
+      <label data-error="{{errorMessage 'url'}}" for="url">URL</label>
+      <input class="validate {{errorClass 'url'}}" name="url" id="url" type="text" value=""/>
+    </div>
+    <div class="input-field">
+      <input class="validate {{errorClass 'title'}}" name="title" id="title" type="text" value=""/>
+      <label data-error="{{errorMessage 'title'}}" for="title">Title</label>
+    </div>
+    <input type="submit" value="Submit" class="btn btn-primary"/>
+  </form>
+</template>
