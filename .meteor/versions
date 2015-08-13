@@ -1,7 +1,5 @@
 accounts-base@1.2.0
 accounts-password@1.1.1
-accounts-ui@1.1.5
-accounts-ui-unstyled@1.1.7
 aldeed:template-extension@3.4.3
 autoupdate@1.2.1
 babrahams:editable-json@0.4.3
@@ -12,6 +10,7 @@ blaze-tools@1.0.3
 boilerplate-generator@1.0.3
 callback-hook@1.0.3
 check@1.0.5
+coffeescript@1.0.6
 d0minikk:materialize-meteor@1.95.1
 dburles:mongo-collection-instances@0.3.4
 ddp@1.1.0
@@ -37,7 +36,6 @@ jquery@1.11.3_2
 json@1.0.3
 lai:collection-extensions@0.1.4
 launch-screen@1.0.2
-less@1.0.14
 livedata@1.0.13
 localstorage@1.0.3
 logging@1.0.7
@@ -62,6 +60,7 @@ sacha:spin@2.3.1
 service-configuration@1.0.4
 session@1.1.0
 sha@1.0.3
+softwarerero:accounts-t9n@1.0.9
 spacebars@1.0.6
 spacebars-compiler@1.0.6
 srp@1.0.3
@@ -70,5 +69,7 @@ tracker@1.0.7
 ui@1.0.6
 underscore@1.0.3
 url@1.0.4
+useraccounts:core@1.12.1
+useraccounts:materialize@1.12.1
 webapp@1.2.0
 webapp-hashing@1.0.3

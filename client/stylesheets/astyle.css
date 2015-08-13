@@ -14,10 +14,15 @@ nav .brand-logo {
 
 body {
   background: #eee;
-  color: #666666; }
+  color: #666666;
+}
 
-#main {
+.main {
   position: relative;
+}
+
+.test {
+  padding-left: 240px;
 }
 .page {
   position: absolute;

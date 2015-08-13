@@ -6,8 +6,9 @@
 
 meteor-platform
 d0minikk:materialize-meteor
-accounts-password
 iron:router
-accounts-ui
 sacha:spin
 msavin:mongol
+useraccounts:materialize
+useraccounts:core
+accounts-password

@@ -1,5 +1,4 @@
 <template name="header">
-  <header class="page-topbar">
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper" role="navigation">
@@ -11,6 +10,9 @@
 
           <li class="{{isPageActive 'bestPosts'}}">
             <a href="{{pathFor 'bestPosts'}}">Best</a>
+          </li>
+          <li>
+            <a href="{{pathFor 'accounts'}}">Login</a>
           </li>
           {{#if currentUser}}
             <!--li class="{{activeRouteClass 'postSubmit'}}">
@@ -24,5 +26,4 @@
       </div>
     </nav>
   </div>
-  </header>
 </template>
